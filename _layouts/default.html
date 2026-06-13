@@ -21,7 +21,7 @@
   
   /* Navigation Layout Styling */
   .nav { display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; height: 60px; background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
-  .nav-logo { display: flex; align-items: baseline; gap: 8px; text-decoration: none; color: inherit; cursor: pointer; }
+  .nav-logo { display: flex; align-items: baseline; gap: 6px; text-decoration: none; color: inherit; cursor: pointer; }
   .nav-logo-main { font-weight: 600; font-size: 15px; letter-spacing: 0.06em; }
   .nav-logo-sub { font-size: 10px; color: var(--text3); letter-spacing: 0.14em; text-transform: uppercase; }
   .nav-right { display: flex; align-items: center; gap: 12px; }
@@ -42,6 +42,19 @@
   .footer-brand { font-size: 13px; font-weight: 600; }
   .footer-tagline { font-size: 12px; color: var(--text3); max-width: 380px; }
   .footer-links { display: flex; gap: 1.5rem; align-items: center; font-size: 13px; color: var(--text2); }
+
+  /* MOBILE RESPONSIVE DIALS FOR NAV & FOOTER */
+  @media (max-width: 768px) {
+    .nav { padding: 0 1rem; }
+    .nav-logo-sub { display: none; } /* Hide sub-logo text to save row width */
+    .search-input { width: 110px; padding-left: 28px; }
+    .search-input:focus { width: 140px; }
+    .search-icon { left: 9px; }
+    .btn-text { display: none; } /* Convert CTA button to a clean utility icon on mobile */
+    .btn-cta { padding: 8px 10px; }
+    #search-results { width: 280px; }
+    .footer { padding: 1.5rem 1rem; flex-direction: column; align-items: flex-start; gap: 1.25rem; }
+  }
 </style>
 </head>
 <body>
@@ -54,11 +67,11 @@
   <div class="nav-right">
     <div class="search-container">
       <i class="ti ti-search search-icon"></i>
-      <input type="text" id="search-input" placeholder="Search articles..." class="search-input" autocomplete="off" />
+      <input type="text" id="search-input" placeholder="Search..." class="search-input" autocomplete="off" />
       <div id="search-results"></div>
     </div>
     <a href="https://sketchronix.com/#builder" class="btn-cta">
-      <i class="ti ti-file-certificate"></i> Get Code-Compliant Drawings
+      <i class="ti ti-file-certificate"></i> <span class="btn-text">Get Code-Compliant Drawings</span>
     </a>
   </div>
 </nav>
@@ -136,7 +149,6 @@
       searchResults.style.display = 'block';
     });
 
-    // Close on click outside
     document.addEventListener('click', function(e) {
       if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
         searchResults.style.display = 'none';
