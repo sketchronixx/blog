@@ -4,21 +4,35 @@
     color: #1e293b !important;
     background-color: #f8fafc;
   }
-  .wrapper {
-    max-width: 1200px !important; /* Makes the layout spacious like your main site */
+  
+  /* Force the header container to stretch far left and far right */
+  .site-header .wrapper {
+    max-width: 100% !important;
+    width: 100% !important;
     padding-left: 40px !important;
     padding-right: 40px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
   }
+
+  /* Expand the blog content width to match the clean corporate look */
+  .page-content .wrapper, .site-footer .wrapper {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    box-sizing: border-box !important;
+  }
+
   .site-title {
-    font-size: 22px !important;
+    font-size: 20px !important;
     font-weight: 700 !important;
     color: #1a192b !important;
     letter-spacing: -0.5px !important;
   }
-  a {
-    color: #0066cc;
-    text-decoration: none;
-  }
+
   .post-link {
     font-size: 24px !important;
     font-weight: 600 !important;
@@ -26,15 +40,15 @@
   }
 </style>
 
-<header class="site-header" role="banner" style="background: #ffffff; border-bottom: 1px solid #eaeaea; padding: 15px 0;">
-  <div class="wrapper" style="display: flex; justify-content: space-between; align-items: center;">
+<header class="site-header" role="banner" style="background: #ffffff; border-bottom: 1px solid #eaeaea; padding: 18px 0;">
+  <div class="wrapper">
     
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
-      SKETCHRONIX <span style="font-weight: 300; font-size: 14px; color: #64748b; letter-spacing: 0; margin-left: 5px;">INSIGHTS</span>
+      SKETCHRONIX <span style="font-weight: 300; font-size: 13px; color: #64748b; letter-spacing: 0; margin-left: 4px;">INSIGHTS</span>
     </a>
     
     <a href="https://sketchronix.com/#builder" 
-       style="background-color: #1b1a29; color: #ffffff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 14px; letter-spacing: 0.5px; transition: background-color 0.2s ease;"
+       style="background-color: #1b1a29; color: #ffffff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 14px; letter-spacing: 0.5px; white-space: nowrap; transition: background-color 0.2s ease;"
        onmouseover="this.style.backgroundColor='#2e2c45';" 
        onmouseout="this.style.backgroundColor='#1b1a29';"
     >
