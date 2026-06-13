@@ -36,15 +36,23 @@
 <body>
 
 <nav class="nav">
-  <div class="nav-logo" onclick="location.href='/'" style="cursor:pointer;">
+  <a href="{{ '/' | relative_url }}" class="nav-logo" style="display: flex; align-items: baseline; gap: 8px; text-decoration: none; color: inherit;">
     <span class="nav-logo-main">SKETCHRONIX</span>
     <span class="nav-logo-sub">Insights</span>
-  </div>
+  </a>
+  
   <div class="nav-right">
-    <button class="btn-search"><i class="ti ti-search"></i> Search</button>
-    <a href="https://sketchronix.com/#builder" class="btn-cta">
-      <i class="ti ti-file-certificate"></i> Get Code-Compliant Drawings
-    </a>
+    <div class="search-container" style="position: relative;">
+      <i class="ti ti-search" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text2); font-size: 14px; pointer-events: none;"></i>
+      <input type="text" id="search-input" placeholder="Search articles..." style="font-family: inherit; font-size: 13px; color: var(--text1); background: var(--surface); border: 1px solid var(--border); padding: 6px 12px 6px 30px; border-radius: var(--radius-md); outline: none; width: 150px; transition: all 0.2s;" />
+      
+      <div id="search-results" style="position: absolute; top: 100%; right: 0; width: 300px; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-md); box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-height: 280px; overflow-y: auto; display: none; z-index: 1000; margin-top: 5px; padding: 4px 0;"></div>
+    </div>
+
+    <button class="btn-cta">
+      <i class="ti ti-file-certificate" aria-hidden="true"></i>
+      Get Code-Compliant Drawings
+    </button>
   </div>
 </nav>
 
