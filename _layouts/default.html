@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{ page.title }} | {{ site.title }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+<style>
+  /* All your beautiful core design styling rules */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --white: #ffffff; --bg: #f5f5f4; --surface: #f9f9f8; --border: #e2e1dc; --border2: #d0cfc9;
+    --text1: #1a1a18; --text2: #5c5b57; --text3: #9b9a96; --blue-bg: #e6f1fb; --blue-tx: #0c447c;
+    --blue-md: #185fa5; --teal-bg: #e1f5ee; --teal-tx: #0f6e56; --amber-bg:#faeeda; --amber-tx:#854f0b;
+    --coral-bg:#faece7; --coral-tx:#993c1d; --green-tx:#0f6e56; --radius-sm: 6px; --radius-md: 8px; --radius-lg: 12px;
+  }
+  body { font-family: 'Inter', sans-serif; font-size: 15px; color: var(--text1); background: var(--bg); line-height: 1.6; }
+  a { text-decoration: none; color: inherit; }
+  .nav { display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; height: 60px; background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+  .nav-logo { display: flex; align-items: baseline; gap: 8px; }
+  .nav-logo-main { font-weight: 600; font-size: 15px; letter-spacing: 0.06em; }
+  .nav-logo-sub { font-size: 10px; color: var(--text3); letter-spacing: 0.14em; text-transform: uppercase; }
+  .nav-right { display: flex; align-items: center; gap: 12px; }
+  .btn-search { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text2); background: var(--surface); border: 1px solid var(--border); padding: 6px 12px; border-radius: var(--radius-md); cursor: pointer; }
+  .btn-cta { display: flex; align-items: center; gap: 6px; background: var(--text1); color: var(--white); font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: var(--radius-md); border: none; cursor: pointer; white-space: nowrap; }
+  .btn-cta:hover { background: #333330; }
+  .footer { background: var(--white); border-top: 1px solid var(--border); padding: 1.5rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 3rem; }
+  .footer-brand { font-size: 13px; font-weight: 600; }
+  .footer-tagline { font-size: 12px; color: var(--text3); max-width: 380px; }
+  .footer-links { display: flex; gap: 1.5rem; align-items: center; font-size: 13px; color: var(--text2); }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo" onclick="location.href='/'" style="cursor:pointer;">
+    <span class="nav-logo-main">SKETCHRONIX</span>
+    <span class="nav-logo-sub">Insights</span>
+  </div>
+  <div class="nav-right">
+    <button class="btn-search"><i class="ti ti-search"></i> Search</button>
+    <a href="https://sketchronix.com/#builder" class="btn-cta">
+      <i class="ti ti-file-certificate"></i> Get Code-Compliant Drawings
+    </a>
+  </div>
+</nav>
+
+{{ content }}
+
+<footer class="footer">
+  <div>
+    <div class="footer-brand">Sketchronix Insights</div>
+    <div class="footer-tagline">Technical design, structural drafting, and architectural layout strategies for modern practice.</div>
+  </div>
+  <div class="footer-links">
+    <a href="#" style="color:var(--amber-tx); font-weight:500;"><i class="ti ti-rss"></i> RSS Feed</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+</footer>
+
+</body>
+</html>
