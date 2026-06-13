@@ -3,21 +3,32 @@ layout: default
 ---
 <style>
   /* Main feed layout styles */
-  .categories { background: var(--white); padding: 0.9rem 2rem; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--border); overflow-x: auto; }
+  .categories { background: var(--white); padding: 0.9rem 2rem; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--border); overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .cat-pill { font-size: 12px; font-weight: 500; padding: 5px 14px; border-radius: 20px; border: 1px solid var(--border); background: var(--white); color: var(--text2); cursor: pointer; white-space: nowrap; }
   .cat-pill.active { background: var(--text1); color: var(--white); border-color: var(--text1); }
+  
   .main { display: grid; grid-template-columns: 1fr 300px; max-width: 1200px; margin: 0 auto; }
   .posts { padding: 2rem; border-right: 1px solid var(--border); background: var(--white); }
   .post-card { padding: 1.4rem 0; border-bottom: 1px solid var(--border); }
   .post-title { font-size: 17px; font-weight: 600; color: var(--text1); margin-bottom: 7px; letter-spacing: -0.01em; }
   .post-title a:hover { color: var(--blue-md); }
-  .post-excerpt { font-size: 13px; color: var(--text2); margin-bottom: 12px; }
+  .post-excerpt { font-size: 13px; color: var(--text2); margin-bottom: 12px; line-height: 1.5; }
   .post-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 12px; color: var(--text3); }
   .post-cat-badge { font-size: 11px; font-weight: 500; padding: 2px 9px; border-radius: 12px; background: var(--blue-bg); color: var(--blue-tx); }
+  
   .sidebar { padding: 2rem 1.5rem; background: var(--surface); }
   .newsletter-box { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.4rem; margin-bottom: 2rem; }
-  .newsletter-input { width: 100%; font-size: 13px; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--radius-md); margin-bottom: 8px; outline: none; }
+  .newsletter-input { width: 100%; font-size: 13px; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--radius-md); margin-bottom: 8px; outline: none; background: var(--surface); }
   .newsletter-btn { width: 100%; font-size: 13px; font-weight: 500; padding: 9px; border-radius: var(--radius-md); background: var(--text1); color: var(--white); border: none; cursor: pointer; }
+
+  /* MOBILE RESPONSIVE CONTENT ENGINE STACKING */
+  @media (max-width: 768px) {
+    .categories { padding: 0.8rem 1rem; }
+    .main { grid-template-columns: 1fr; } /* Snap to a fluid single column */
+    .posts { padding: 1.5rem 1rem; border-right: none; } /* Remove side border divider */
+    .sidebar { padding: 1.5rem 1rem; background: var(--white); border-top: 1px solid var(--border); }
+    .newsletter-box { background: var(--surface); }
+  }
 </style>
 
 <div class="categories">
