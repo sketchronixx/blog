@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Sketchronix Blog
+title: Sketchronix Insights
 ---
 
-Welcome to the Sketchronix automated blog engine. Below you'll find our latest automated insights and updates.
+Welcome to Sketchronix Insights. Below you will find our latest technical design updates, structural drafting analysis, and architectural layout strategies.
