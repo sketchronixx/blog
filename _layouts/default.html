@@ -9,7 +9,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
 <style>
-  /* All your beautiful core design styling rules */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
     --white: #ffffff; --bg: #f5f5f4; --surface: #f9f9f8; --border: #e2e1dc; --border2: #d0cfc9;
@@ -19,14 +18,26 @@
   }
   body { font-family: 'Inter', sans-serif; font-size: 15px; color: var(--text1); background: var(--bg); line-height: 1.6; }
   a { text-decoration: none; color: inherit; }
+  
+  /* Navigation Layout Styling */
   .nav { display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; height: 60px; background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
-  .nav-logo { display: flex; align-items: baseline; gap: 8px; }
+  .nav-logo { display: flex; align-items: baseline; gap: 8px; text-decoration: none; color: inherit; cursor: pointer; }
   .nav-logo-main { font-weight: 600; font-size: 15px; letter-spacing: 0.06em; }
   .nav-logo-sub { font-size: 10px; color: var(--text3); letter-spacing: 0.14em; text-transform: uppercase; }
   .nav-right { display: flex; align-items: center; gap: 12px; }
-  .btn-search { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text2); background: var(--surface); border: 1px solid var(--border); padding: 6px 12px; border-radius: var(--radius-md); cursor: pointer; }
-  .btn-cta { display: flex; align-items: center; gap: 6px; background: var(--text1); color: var(--white); font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: var(--radius-md); border: none; cursor: pointer; white-space: nowrap; }
+  
+  /* Clean Interactive Search Field */
+  .search-container { position: relative; }
+  .search-input { font-family: inherit; font-size: 13px; color: var(--text1); background: var(--surface); border: 1px solid var(--border); padding: 7px 12px 7px 32px; border-radius: var(--radius-md); outline: none; width: 160px; transition: all 0.2s ease; }
+  .search-input:focus { width: 220px; border-color: var(--border2); background: var(--white); }
+  .search-icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--text2); font-size: 14px; pointer-events: none; }
+  
+  /* Floating Real-Time Search Dropdown */
+  #search-results { position: absolute; top: 100%; right: 0; width: 320px; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-md); box-shadow: 0 4px 16px rgba(0,0,0,0.08); max-height: 300px; overflow-y: auto; display: none; z-index: 1000; margin-top: 6px; padding: 4px 0; }
+  
+  .btn-cta { display: flex; align-items: center; gap: 6px; background: var(--text1); color: var(--white); font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: var(--radius-md); border: none; cursor: pointer; white-space: nowrap; text-decoration: none; }
   .btn-cta:hover { background: #333330; }
+  
   .footer { background: var(--white); border-top: 1px solid var(--border); padding: 1.5rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 3rem; }
   .footer-brand { font-size: 13px; font-weight: 600; }
   .footer-tagline { font-size: 12px; color: var(--text3); max-width: 380px; }
@@ -36,23 +47,19 @@
 <body>
 
 <nav class="nav">
-  <a href="{{ '/' | relative_url }}" class="nav-logo" style="display: flex; align-items: baseline; gap: 8px; text-decoration: none; color: inherit;">
+  <a href="{{ '/' | relative_url }}" class="nav-logo">
     <span class="nav-logo-main">SKETCHRONIX</span>
     <span class="nav-logo-sub">Insights</span>
   </a>
-  
   <div class="nav-right">
-    <div class="search-container" style="position: relative;">
-      <i class="ti ti-search" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text2); font-size: 14px; pointer-events: none;"></i>
-      <input type="text" id="search-input" placeholder="Search articles..." style="font-family: inherit; font-size: 13px; color: var(--text1); background: var(--surface); border: 1px solid var(--border); padding: 6px 12px 6px 30px; border-radius: var(--radius-md); outline: none; width: 150px; transition: all 0.2s;" />
-      
-      <div id="search-results" style="position: absolute; top: 100%; right: 0; width: 300px; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-md); box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-height: 280px; overflow-y: auto; display: none; z-index: 1000; margin-top: 5px; padding: 4px 0;"></div>
+    <div class="search-container">
+      <i class="ti ti-search search-icon"></i>
+      <input type="text" id="search-input" placeholder="Search articles..." class="search-input" autocomplete="off" />
+      <div id="search-results"></div>
     </div>
-
-    <button class="btn-cta">
-      <i class="ti ti-file-certificate" aria-hidden="true"></i>
-      Get Code-Compliant Drawings
-    </button>
+    <a href="https://sketchronix.com/#builder" class="btn-cta">
+      <i class="ti ti-file-certificate"></i> Get Code-Compliant Drawings
+    </a>
   </div>
 </nav>
 
@@ -69,6 +76,74 @@
     <a href="#">Contact</a>
   </div>
 </footer>
+
+<script>
+  const searchData = [
+    {% for post in site.posts %}
+    {
+      title: {{ post.title | jsonify }},
+      url: {{ post.url | relative_url | jsonify }},
+      excerpt: {{ post.excerpt | strip_html | strip_newlines | truncatewords: 15 | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+
+    if (!searchInput || !searchResults) return;
+
+    searchInput.addEventListener('input', function() {
+      const query = this.value.toLowerCase().trim();
+      searchResults.innerHTML = '';
+
+      if (query.length < 2) {
+        searchResults.style.display = 'none';
+        return;
+      }
+
+      const matches = searchData.filter(post => 
+        post.title.toLowerCase().includes(query) || 
+        post.excerpt.toLowerCase().includes(query)
+      );
+
+      if (matches.length === 0) {
+        searchResults.innerHTML = '<div style="padding: 10px 14px; font-size: 13px; color: var(--text3);">No results found</div>';
+      } else {
+        matches.forEach(post => {
+          const item = document.createElement('a');
+          item.href = post.url;
+          item.style.display = 'block';
+          item.style.padding = '10px 14px';
+          item.style.borderBottom = '1px solid var(--border)';
+          item.style.textDecoration = 'none';
+          
+          item.innerHTML = `
+            <div style="font-weight: 600; font-size: 13px; color: var(--text1); line-height: 1.3;">\${post.title}</div>
+            <div style="font-size: 11px; color: var(--text2); margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">\${post.excerpt}</div>
+          `;
+          
+          item.style.cursor = 'pointer';
+          item.addEventListener('mouseenter', () => item.style.background = 'var(--surface)');
+          item.addEventListener('mouseleave', () => item.style.background = 'none');
+          
+          searchResults.appendChild(item);
+        });
+        if (searchResults.lastChild) searchResults.lastChild.style.borderBottom = 'none';
+      }
+
+      searchResults.style.display = 'block';
+    });
+
+    // Close on click outside
+    document.addEventListener('click', function(e) {
+      if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+        searchResults.style.display = 'none';
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
