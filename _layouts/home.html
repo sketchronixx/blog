@@ -54,16 +54,64 @@ layout: default
   </div>
 
   <aside class="sidebar">
- <div class="newsletter-box">
+<div class="newsletter-box" id="newsletter-box">
         <h3 style="font-size:15px; font-weight:600; margin-bottom:6px;">Stay Current</h3>
         <p style="font-size:13px; color:var(--text2); margin-bottom:14px;">Get updates on design strategies directly to your inbox.</p>
         
-        <form action="https://submit-form.com/hI64Vdeac" method="POST">
-          <input type="hidden" name="_redirect" value="https://insights.sketchronix.com/" />
-          <input type="hidden" name="_append" value="false" />
+        <form id="newsletter-form" action="https://submit-form.com/hI64Vdeac" method="POST">
           <input class="newsletter-input" type="email" name="email" placeholder="your@email.com" required />
-          <button class="newsletter-btn" type="submit">Subscribe</button>
+          <button class="newsletter-btn" type="submit" id="newsletter-btn">Subscribe</button>
         </form>
+        
+        <div id="newsletter-status" style="display:none; margin-top:12px; font-size:13px; font-weight:500;"></div>
       </div>
+
+      <script>
+        document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+          e.preventDefault(); // Pause the instant browser jump
+          
+          const form = this;
+          const button = document.getElementById('newsletter-btn');
+          const status = document.getElementById('newsletter-status');
+          
+          button.disabled = true;
+          button.textContent = 'Subscribing...';
+          
+          // Send data behind the scenes to Formspark
+          fetch(form.action, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+              email: form.email.value
+            })
+          })
+          .then(response => {
+            if (response.ok) {
+              // Show a beautiful custom success text frame
+              status.style.color = '#185fa5'; 
+              status.textContent = '✓ Thank you! Redirecting home...';
+              status.style.display = 'block';
+              form.style.display = 'none'; // Hide input field cleanly
+              
+              // Hold for 2 seconds so they read it, then route home
+              setTimeout(() => {
+                window.location.href = "https://insights.sketchronix.com/";
+              }, 2000);
+            } else {
+              throw new Error();
+            }
+          })
+          .catch(() => {
+            button.disabled = false;
+            button.textContent = 'Subscribe';
+            status.style.color = '#c62828';
+            status.textContent = '✕ Something went wrong. Try again.';
+            status.style.display = 'block';
+          });
+        });
+      </script>
   </aside>
 </div>
