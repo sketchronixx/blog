@@ -1,3 +1,21 @@
 title: Sketchronix Insights
 description: Technical design, structural drafting, and architectural layout strategies for modern practice.
 permalink: /posts/:title/
+
+# 1. Base URL Configuration for Subdomain Indexing
+url: "https://insights.sketchronix.com"
+baseurl: ""
+
+# 2. Automated SEO and Sitemap Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 3. Markdown and Build Settings
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
