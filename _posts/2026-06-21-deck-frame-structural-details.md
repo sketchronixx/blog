@@ -5,7 +5,6 @@ date: 2026-06-21
 ---
 
 A deck's structural integrity is decided before a single deck board is ever laid. Once the decking goes down, the frame underneath is hidden for the life of the structure — which means any shortcuts taken at the framing stage stay buried, sometimes for decades, until they fail. Whether you're building a deck yourself or watching a contractor build one for you, here are the structural details worth checking before the decking covers everything up.
-![Deck framing under construction](images/Correct Deck Joist Spacing Guide 16 OC vs 12 OC for Stronger Decks.png)
 
 <h3 style="color:#666666;">1. Joist Hangers Are Non-Negotiable</h3>
 
