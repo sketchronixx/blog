@@ -5,6 +5,7 @@ date: 2026-07-05
 ---
 
 The ledger board is the single point where a deck attaches to the house — and it's also the most common failure point in deck construction. Getting it right comes down to three decisions: the material you choose, whether you pre-install your joist hangers, and what an inspector will be looking for when they show up. Here's how to think through each one.
+![Descriptive keyword-rich alt text here](/assets/images/deck-ledger-board-connection.png)
 
 ### Choosing Your Ledger Material
 
