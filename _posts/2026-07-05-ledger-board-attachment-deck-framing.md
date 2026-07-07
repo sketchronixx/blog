@@ -54,6 +54,7 @@ A few practical layout habits worth adopting:
 - **Adjust spacing near joist hanger locations** — if a standard interval would land a fastener too close to where a hanger needs to go, shift that fastener slightly (for example, using 9 inches instead of 10) to avoid a conflict.
 
 Keep in mind that this spacing example reflects one specific deck's load and span requirements — always calculate fastener spacing based on your own deck's dimensions, live load, and the applicable fastening schedule. If you'd rather not cross-reference manufacturer span tables by hand for every project, the [Sketchronix Engine](https://sketchronix.com) can generate permit-ready construction drawings that include ledger fastener layouts, applicable code references, framing details, and fastener spacing based on your project's dimensions and design loads.
+
 <img src="/assets/images/deck-building_permit-plans-generated-by-sketchronix.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
 
 ### Installing Pre-Hung Joist Hangers
