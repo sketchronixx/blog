@@ -27,11 +27,13 @@ One practical note on engineered lumber: it's sometimes available in very long s
 The material you choose determines how you can install joist hangers.
 
 **With standard pressure-treated lumber**, inconsistencies in joist thickness typically mean you can't pre-install joist hangers on the ledger ahead of time. Instead, the ledger goes up on the house first, layout is marked, and then each joist is brought to the ledger individually, temporarily tacked in place, and the hanger is installed after the fact. This process takes more time and offers less opportunity for prep work.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/deck-joist-hanger-installation-pressure-treated-lumber.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 **With dimensionally consistent engineered lumber** (like the treated LVL used in this example), joist hangers can be pre-installed directly onto the ledger before it ever goes up on the house — because the material's consistent sizing means every hanger will land at the same, predictable depth.
 
 It's worth noting that KDAT lumber, while kiln-dried, still isn't perfectly uniform piece to piece — some size variance between joists should still be expected. Metal framing systems, on the other hand, require every component to come from the same system; parts aren't interchangeable between manufacturers.
-
+<img src="/assets/images/LVL-Ledger-Board-with-Pre-Installed-Joist-Hangers-vs-KDAT-Lumber-Comparison.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
 ### Calculating Fastener Spacing
 
 Fastener count and spacing aren't guesswork — they depend on several variables:
