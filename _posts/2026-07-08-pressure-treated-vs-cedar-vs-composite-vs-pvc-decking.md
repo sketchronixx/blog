@@ -28,6 +28,10 @@ If your deck frame is pressure-treated and your decking is pressure-treated too,
 - Add a **1-inch overhang** past the edge. This looks more finished, and it's a good choice if you're adding stairs.
 - Add a **1¼-inch overhang** if you plan to attach a colored facade board later. The extra space leaves room for that material.
 
+  <div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/pressure-treated-vs-cedar-vs-composite-vs-pvc-decking-which-material-is-best.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
+
 ### Fastening Basics for Wood Decking
 
 Now that your first board is in place, it's time to fasten it down. A few simple rules apply to wood decking in general.
