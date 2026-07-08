@@ -3,7 +3,9 @@ layout: post
 title: "Decking Showdown: What Actually Happens When You Test Pressure-Treated, Cedar, Composite, and PVC Side by Side"
 date: 2026-07-08
 ---
-
+  <div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/pressure-treated-vs-cedar-vs-composite-vs-pvc-decking-which-material-is-best.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 Choosing a decking material is a big decision. It's not just about looks. You also need to think about your climate, how hard the install will be, how much upkeep you're willing to do, and how much you want to spend.
 
 This guide compares four common decking materials: pressure-treated lumber, western red cedar, composite, and PVC. We'll walk through how each one installs, how it performs against weather and heat, and what it actually costs. All of the numbers below come from one real side-by-side comparison. Use them as a helpful example, not a universal price list for your area.
@@ -27,10 +29,6 @@ If your deck frame is pressure-treated and your decking is pressure-treated too,
 - Install the board flush with the edge. This is the simplest option, and it costs nothing extra.
 - Add a **1-inch overhang** past the edge. This looks more finished, and it's a good choice if you're adding stairs.
 - Add a **1¼-inch overhang** if you plan to attach a colored facade board later. The extra space leaves room for that material.
-
-  <div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/images/pressure-treated-vs-cedar-vs-composite-vs-pvc-decking-which-material-is-best.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-</div>
 
 ### Fastening Basics for Wood Decking
 
