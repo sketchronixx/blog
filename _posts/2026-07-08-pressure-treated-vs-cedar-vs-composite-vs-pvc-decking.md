@@ -65,7 +65,9 @@ The biggest difference is where the screw goes. A Camo screw drives in through t
 Two companion tools make this system easier to use. The first tool, sometimes called a Camo Claw, holds a badly warped board steady while you fasten one end. The second tool is a lever with an offset wheel. Once the first end is fastened, you use this lever to pull the rest of the board into place. It creates a consistent, even gap as you work your way down the board. You'll want to use one of these tools on every single board for the best results. The upside is that one person can do this alone.
 
 ### Installing Composite Decking
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/composite_decking.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 Composite boards work differently from solid wood, starting with what they're made of. Many composite products use up to 95% recycled material. On top of that recycled core, manufacturers add a capped finish layer. This cap does two jobs: it creates a waterproof wear surface, and it blocks UV rays on three sides of the board to protect the color over time.
 
 The install process is also different. Solid wood boards are the same all the way through, so you can screw through the top or side wherever you like. Composite boards, on the other hand, usually have a groove running along each side. That groove is designed for hidden fastener clips, so you never have to drive a screw through the visible face of the board.
