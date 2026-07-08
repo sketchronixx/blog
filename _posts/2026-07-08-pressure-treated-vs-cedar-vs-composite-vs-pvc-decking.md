@@ -53,7 +53,9 @@ If you'd rather control the spacing yourself from the start, do this instead: br
 Cedar boards can vary quite a bit depending on where they came from. Different suppliers and different mills produce different grades of cedar, and some boards arrive noticeably warped. For a warped board, a clamp-style spacer tool can help. This tool holds the board firmly in place while you work. Set the warped board on the deck frame, clamp it with the spacer tool, and let it dry there for a few days in good weather before you drive any screws.
 
 ### A Better Way to Fasten Warped Boards: The Camo System
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/camo-hidden-deck-fastener-system.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 If you're dealing with warped or curved boards, a standard deck screw isn't always your best option. A **Camo-style fastening system** is built specifically for this problem.
 
 Here's what makes it different from a regular screw. It has a clipped end, which helps prevent the wood from splitting. It also has a reverse thread near the top of the screw. This reverse thread pulls the board in tight as you drive the screw. And its head is much smaller than a standard deck screw's head.
