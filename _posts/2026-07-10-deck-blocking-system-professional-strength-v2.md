@@ -19,7 +19,9 @@ Blocking is short pieces of lumber. You install them between your deck's floor j
 Once the deck is finished, you won't even see the blocking. It's hidden underneath the deck boards. But it changes how the whole deck feels and performs.
 
 ### Why Blocking Matters
-
+ <div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/Gemini_Generated_Image_yi7ggayi7ggayi7g.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 Blocking does two important jobs.
 
 **First, it reduces bounce.** When you nail and screw blocking between joists, it ties the frame together. This makes the deck resist flexing under weight. At the spots where blocking is installed, the frame becomes noticeably stronger against bounce. That matters most when a lot of weight is on the deck at once, like during a party with dozens of guests.
