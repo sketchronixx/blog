@@ -20,7 +20,7 @@ Once the deck is finished, you won't even see the blocking. It's hidden undernea
 
 ### Why Blocking Matters
  <div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/images/Gemini_Generated_Image_yi7ggayi7ggayi7g.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+  <img src="/assets/images/deck-joist-blocking-technical-drawing.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
 </div>
 Blocking does two important jobs.
 
