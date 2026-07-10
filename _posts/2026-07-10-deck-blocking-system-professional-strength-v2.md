@@ -89,7 +89,9 @@ Remember the picture-frame finish mentioned earlier? It needs more than just str
 A nail roughly every 12 inches along that surface is enough to support real weight. It also helps the whole assembly act as one solid unit, instead of a row of separate boards moving independently.
 
 This matters even more at the top of a staircase. If a decking board's end isn't fully supported there, it can flex under a person's foot. Picture someone stepping near the tip of that unsupported board. Their toe touches down first, and the board holds. Then they shift their weight forward, and the board flexes or rolls under them. On a short unsupported span, this usually isn't dramatic. But repeated stress at the top of stairs, over months and years, raises the chance of the board eventually breaking. Solid blocking at these transition points is what prevents that outcome.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/how-to-build-a-solid-deck-frame-joist-blocking-guide.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### The Payoff
 
 None of these steps are difficult on their own. You cut blocks, fasten them, and occasionally straighten a stubborn joist. But together, they add up to something bigger: a deck frame that's stronger, squarer, and ready for a clean finished look.
