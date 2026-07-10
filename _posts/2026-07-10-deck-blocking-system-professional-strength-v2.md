@@ -31,7 +31,9 @@ Blocking does two important jobs.
 That clean pattern is called a picture-frame finish. You've probably seen it on nicer decks: a neat border of decking boards that frames the field boards in the middle. To install that border well, you need a solid, level surface to nail into at the edge of the deck. Blocking provides that surface.
 
 ### How to Size and Space Your Blocks
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/measuring-between-joists-to-install-blocking.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 Before you cut blocking, you need to measure the gap between your joists. Don't just use the on-center spacing number (the distance between the centers of two joists). Measure the actual open space between them, since the joists themselves take up some width.
 
 In one example project, the joists sat 12 inches on center. That worked out to a block length of about 10½ inches. Your own measurement may be different, depending on your joist spacing. The process stays the same: measure your actual gap, then cut your blocks to fit.
