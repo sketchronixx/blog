@@ -9,6 +9,9 @@ Have you ever walked across a deck and felt the boards bounce a little? That bou
 A bouncy deck usually isn't dangerous right away. But it's one of the clearest signs that separates an amateur build from a professional one.
 
 The fix isn't a thicker board or a fancier material. It's a framing step that happens before any decking goes down. That step is called blocking.
+ <div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/deck-blocking-between-joists-pressure-treated-deck-frame.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 
 ### What Is Blocking?
 
