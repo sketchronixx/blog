@@ -38,7 +38,9 @@ A deluxe paver starts the same way but adds three extra ingredients. Each one im
 **3. Concrete sealer.** After the paver is fully removed from its mold, a coat of concrete sealer is applied to the top surface. A sealer is a protective coating that helps the concrete resist wear, moisture, and staining over time, which extends how long the paver lasts outdoors.
 
 ### How to Set Up a Simple Concrete Mixing Station
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/diy-concrete-mixing-station-tilted-5-gallon-bucket.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 Getting a consistent, bubble-free mix takes a little setup, but nothing complicated.
 
 A 5-gallon bucket works well as a mixing container because it's easy to lift and pour into multiple forms at once. But mixing straight down into a bucket sitting flat on the ground creates a problem: a handheld mixer struggles to reach the corners at the bottom, and dry, unmixed concrete tends to hide there.
