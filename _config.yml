@@ -10,6 +10,7 @@ baseurl: ""
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # 3. Markdown and Build Settings
 markdown: kramdown
