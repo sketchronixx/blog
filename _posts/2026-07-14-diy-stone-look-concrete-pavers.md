@@ -38,9 +38,7 @@ A deluxe paver starts the same way but adds three extra ingredients. Each one im
 **3. Concrete sealer.** After the paver is fully removed from its mold, a coat of concrete sealer is applied to the top surface. A sealer is a protective coating that helps the concrete resist wear, moisture, and staining over time, which extends how long the paver lasts outdoors.
 
 ### How to Set Up a Simple Concrete Mixing Station
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/images/diy-concrete-mixing-station-tilted-5-gallon-bucket.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-</div>
+
 Getting a consistent, bubble-free mix takes a little setup, but nothing complicated.
 
 A 5-gallon bucket works well as a mixing container because it's easy to lift and pour into multiple forms at once. But mixing straight down into a bucket sitting flat on the ground creates a problem: a handheld mixer struggles to reach the corners at the bottom, and dry, unmixed concrete tends to hide there.
@@ -48,7 +46,9 @@ A 5-gallon bucket works well as a mixing container because it's easy to lift and
 A simple fix is to build a small frame, out of basic scrap wood, that holds the bucket tilted at an angle instead of sitting flat. This one change solves two problems at once. First, tilting the bucket brings the corners within easier reach of a handheld mixer, so there's less chance of leaving dry pockets behind. Second, an angled bucket can be rotated as you mix, which keeps working fresh material into the blade path instead of grinding the same spot over and over. The result is a more even, fully-blended batch with none of the dry, crumbly patches that ruin a pour. The frame itself takes only a few minutes to put together.
 
 For actually blending the concrete, a handheld concrete mixer works fine for small batches like this.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/diy-concrete-mixing-station-tilted-5-gallon-bucket.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### What's the Right Concrete-to-Water Ratio for Pavers?
 
 Getting a repeatable, predictable ratio matters. If your mix is inconsistent, you'll either run out of material partway through or end up with leftover concrete that goes to waste.
@@ -69,7 +69,9 @@ If you build your own vibration table, two details matter most:
 - **Keep it level.** An unlevel table will cause the wet concrete to settle unevenly, which can leave you with crooked pavers.
 
 A cheap vibration motor mounted to a simple wood frame is enough to get the job done.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/diy-concrete-vibration-table-bubble-free-pavers.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### How Long Do Homemade Concrete Pavers Need to Cure?
 
 Concrete needs time to harden before it's ready for use. As a general guideline, allow about 24 hours for the concrete to cure inside the form. After removing the pavers, wait roughly another 24 hours before walking on them, just to be safe. In total, plan on about two days between pouring and putting the pavers to use.
