@@ -4,7 +4,9 @@ layout: post
 title: "The Stone-Look Pavers You Can Make at Home for a Dollar Each"
 date: 2026-07-14
 ---
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/diy-stone-look-concrete-pavers-made-at-home-under-1-dollar-each.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 Price out enough pavers to cover a full patio or a long walkway, and the total can climb into the hundreds of dollars before you've laid a single one. What most homeowners don't realize is that a paver is just shaped concrete, and shaped concrete is something you can make yourself, in your own driveway, for a fraction of the retail cost. With the right form and a few inexpensive add-ins, you can turn a plain bag of concrete mix into pavers that pass for cut stone.
 
 There are two ways to approach this project: a **basic version** and a **deluxe version**. Both start with the same core idea. You'll just decide how much extra effort and material you want to put in.
