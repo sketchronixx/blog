@@ -1,7 +1,7 @@
 ---
-redirect_from: /posts/business-lessons-deck-builders-learn-too-late-(1)/
 layout: post
 title: "The Business Lessons Deck Builders Learn Too Late (And How to Skip the Expensive Part)"
+redirect_from: /posts/business-lessons-deck-builders-learn-too-late-(1)/
 date: 2026-07-06
 ---
 
