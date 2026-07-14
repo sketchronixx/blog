@@ -1,4 +1,5 @@
 ---
+redirect_from: /posts/diy-stone-look-concrete-pavers-(1)/
 layout: post
 title: "The Stone-Look Pavers You Can Make at Home for a Dollar Each"
 date: 2026-07-14
