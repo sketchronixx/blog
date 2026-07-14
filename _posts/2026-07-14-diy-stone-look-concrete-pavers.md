@@ -12,7 +12,9 @@ Price out enough pavers to cover a full patio or a long walkway, and the total c
 There are two ways to approach this project: a **basic version** and a **deluxe version**. Both start with the same core idea. You'll just decide how much extra effort and material you want to put in.
 
 ### What Materials Do You Need to Make Basic Concrete Pavers?
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/materials-needed-to-make-basic-concrete-pavers.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 A basic paver keeps things simple. You only need three things:
 
 - **A bag of concrete mix**
@@ -24,7 +26,9 @@ A form is just a mold. It gives the wet concrete its shape while it hardens. For
 If you pour plain concrete into a form, let it harden, and then pop it out, you end up with a basic paver. Based on one bag-to-paver test, a single 60-pound bag of concrete produced about 7 and a half pavers this way. At that rate, each paver cost roughly 50 cents to make. Your own results will vary depending on the size of your form and the type of mix you use.
 
 ### How to Upgrade Basic Pavers to a Stone-Look Deluxe Finish
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/how-to-upgrade-concrete-pavers-to-a-stone-look-finish.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 A deluxe paver starts the same way but adds three extra ingredients. Each one improves the color, strength, or durability of the finished piece.
 
 **1. Concrete tint.** Plain concrete dries to a pale gray color. To get a darker tone that looks more like natural stone, a small amount of concrete tint, about one ounce per batch, gets mixed into the water before it's combined with the dry concrete.
