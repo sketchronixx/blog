@@ -3,7 +3,9 @@ layout: post
 title: "The $10,000 Mistake Most Paver Patios Make (And How to Avoid It)"
 date: 2026-07-20
 ---
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/DIY-Paver-Patio-With-Modern-Outdoor-Seating-Area.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 Most paver patios don't fail because of the pavers. They fail because of what's happening underneath them — a set of invisible decisions made long before a single paver touches the ground. Skip a step in the base. Get the grading wrong. Rush the sand layer because you're tired and it's ninety degrees out. Any one of those, and you'll be staring at cracked, uneven pavers within a year or two, no matter how sharp the patio looked the day it went in.
 
 The fix isn't complicated, though. It just requires understanding what's actually happening beneath the surface — and being willing to slow down at exactly the moments most people speed up. This guide covers the two main ways to build a paver patio base, how to plan and grade the area correctly, and what the real costs and time commitment look like once you get past the estimates.
@@ -36,7 +38,9 @@ It's durable. It's well understood. The tradeoff is all that digging.
 Once either patio is finished, you honestly can't tell them apart. There is one real tradeoff worth knowing about going in: if you have large trees nearby, their roots are somewhat more likely to eventually heave a patio built on the panel system, since there's less material sitting between the pavers and the ground. Roots can still lift a gravel-based patio — sidewalks and driveways prove that every day — but the risk reads as a bit higher on the thinner panel system.
 
 Whichever base you land on, the underlying formula never changes: a stable base layer, sand for a flat surface, an edge restraint to hold everything together, and jointing sand to lock the pavers in place. Skip the base entirely and lay pavers straight onto dirt, and you're not saving time — you're just buying yourself cracked, uneven pavers a little sooner.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/Gravel-Base-vs-Paver-Base-Panel-Cross-Section-Diagram.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### Planning and Grading: The Step Homeowners Skip at Their Peril
 
 Before any digging happens, you need a plan. Where does the patio go? What size and style of pavers do you want? Does it need to line up with an existing structure, walkway, or another patio already on the property? Answer those questions first, because changing your mind after the shovel comes out is far more expensive than changing it now.
@@ -46,7 +50,9 @@ Once the area is planned and cleared, grading becomes the step that quietly dete
 Translating that into the real world means hammering steel stakes around the patio's perimeter and stringing a line between them at the height you want the finished surface to sit. Level that string out with a line level first, then intentionally throw it back out of level — raising one end or dropping the other by your calculated amount — until it represents the grade you actually want.
 
 Getting that math right the first time saves an enormous amount of rework later, and it's exactly the kind of calculation the Sketchronix Engine is built to handle. Rather than working out stake heights and drop measurements by hand, you can generate a precise grading and layout plan for your specific patio dimensions in minutes — one less place for a measuring mistake to creep in before the digging even starts.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/How-to-Grade-a-Paver-Patio-With-String-Lines-and-Stakes.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### Digging: The Hardest Part of the Job
 
 Before anything else, call 811. It's a free, nationwide service, and it exists for one reason: to tell you where the underground utility lines are before you put a shovel through one.
