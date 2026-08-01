@@ -5,7 +5,9 @@ date: 2026-08-01
 ---
 
 A deck can look finished the day it's built and still fail two years later. The difference between those two outcomes usually comes down to what happens in the last hour on site, after the boards are down and the railing is up. Before any project gets called complete, there's a short list of things worth checking by hand. Here's what that final walkthrough looks like, and why each step matters.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/5-critical-deck-checks-before-final-inspection.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### 1. Inspect Every Deck Railing Fastener Before Final Inspection
 
 Railing has one job: keep people on the deck. That means it has to hold up if someone leans on it or bumps into it hard. A railing that looks solid can still be under-fastened where you can't see it.
@@ -23,7 +25,9 @@ Because railing height and spacing requirements vary by jurisdiction, it helps t
 On decks that attach to the house, there's one connection that matters more than any other: the ledger. The ledger board attaches the deck to the house, and the joists hang from it. (Freestanding decks, which use their own posts instead of attaching to the house, don't have this connection — but for the many decks that do, it's one of the most critical structural connections in the deck.) If that connection fails, the whole deck can fail with it.
 
 A proper ledger connection follows the required fastening schedule for the specific design and local code, with fasteners spaced evenly and every hole filled. Missing fasteners, the wrong fastener type, or hangers that aren't fully attached all weaken this connection, even if the deck looks complete from above.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/deck-ledger-and-joist-connection.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 The stakes here are serious. A deck can collapse if the ledger was only temporarily fastened during construction and never properly finished, even after the rest of the deck looks done. This kind of failure has caused serious injuries and, in some cases, deaths. It is the single most important connection to get right on any deck.
 
 Because ledger fastening schedules depend on joist spacing, board size, and local code, this is another place where having a clear, code-referenced framing layout helps. The Sketchronix Engine can produce a fastener schedule and framing layout for the ledger and joist connections, giving builders a documented, code-based reference to fasten to instead of relying on memory or habit.
@@ -45,7 +49,9 @@ Some decking systems use hidden fasteners covered by matching plugs rather than 
 A plug that sits too low or too high stands out visually and can catch a foot or a chair leg over time. A plug that's slightly high can sometimes be tapped down. One that's too low usually needs to be pulled and replaced. Removing a plug means driving a screw carefully into the center of it and pulling it out. Once a plug has been removed this way, it can't be reused, so it helps to have extras on hand. A new plug can then be tapped gently into place, taking care not to seat it too deep.
 
 Grain matching matters too. Even a plug that sits at the correct depth can stand out if its wood grain pattern doesn't match the surrounding boards. Lining up the grain before tapping it in keeps the repair from being noticeable.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/hidden-deck-fastener-plugs" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### 5. Repair Composite Deck Scratches Before Project Completion
 
 Small scratches can happen during construction, even on a freshly finished deck, and they're worth addressing before calling the project complete.
