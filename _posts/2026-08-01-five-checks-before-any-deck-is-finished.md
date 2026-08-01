@@ -50,7 +50,7 @@ A plug that sits too low or too high stands out visually and can catch a foot or
 
 Grain matching matters too. Even a plug that sits at the correct depth can stand out if its wood grain pattern doesn't match the surrounding boards. Lining up the grain before tapping it in keeps the repair from being noticeable.
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/images/hidden-deck-fastener-plugs" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+  <img src="/assets/images/hidden-deck-fastener-plugs.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
 </div>
 ### 5. Repair Composite Deck Scratches Before Project Completion
 
