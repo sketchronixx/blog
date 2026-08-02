@@ -18,7 +18,7 @@ Height matters too. Local building codes typically set a minimum railing height,
 
 Cable railing adds another layer of scrutiny. Inspectors will also check the spacing between individual cables, because if the gaps are too wide, a child could fit through them. Cable rail is a popular style choice in some regions, but it has to meet spacing requirements to pass inspection, regardless of how it looks.
 
-Because railing height and spacing requirements vary by jurisdiction, it helps to have the target numbers confirmed before the railing goes up. The Sketchronix Engine can generate permit-ready drawings with railing dimensions and code references, helping builders document the required details before construction begins.
+Because railing height and spacing requirements vary by jurisdiction, it helps to have the target numbers confirmed before the railing goes up.  <a href="https://sketchronix.com/#builder" style="color:#1a56db; text-decoration:underline;">Sketchronix Engine</a>  can generate permit-ready drawings with railing dimensions and code references, helping builders document the required details before construction begins.
 
 ### 2. Inspect the Ledger and Joist Connections
 
