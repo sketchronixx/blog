@@ -30,7 +30,7 @@ A proper ledger connection follows the required fastening schedule for the speci
 </div>
 The stakes here are serious. A deck can collapse if the ledger was only temporarily fastened during construction and never properly finished, even after the rest of the deck looks done. This kind of failure has caused serious injuries and, in some cases, deaths. It is the single most important connection to get right on any deck.
 
-Because ledger fastening schedules depend on joist spacing, board size, and local code, this is another place where having a clear, code-referenced framing layout helps. The Sketchronix Engine can produce a fastener schedule and framing layout for the ledger and joist connections, giving builders a documented, code-based reference to fasten to instead of relying on memory or habit.
+Because ledger fastening schedules depend on joist spacing, board size, and local code, this is another place where having a clear, code-referenced framing layout helps.  <a href="https://sketchronix.com/#builder" style="color:#1a56db; text-decoration:underline;">Sketchronix Engine</a>  can produce a fastener schedule and framing layout for the ledger and joist connections, giving builders a documented, code-based reference to fasten to instead of relying on memory or habit.
 
 ### 3. Seal Any Gaps Where Water Can Reach the House
 
