@@ -7,7 +7,9 @@ date: 2026-08-05
 A joist hanger looks simple. It's a small metal bracket that holds a deck joist to the house. But this small part carries a huge amount of weight, and a poor installation can compromise how well a deck holds up over time.
 
 Here's what actually makes a joist hanger work, and where installations commonly go wrong.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/joist-hanger-installation-mistake-deck-ledger-board.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### What a Joist Hanger Does
 
 A joist hanger is a metal bracket that connects a deck joist to the ledger board — the beam bolted to your house. The joist sits inside the bracket. The bracket carries the weight of the joist down into the house structure.
@@ -19,7 +21,9 @@ Manufacturers make joist hangers in several weight ratings: light duty, medium d
 Simpson Strong-Tie, a major manufacturer of deck hardware, offers an enhanced protective coating on its hangers called Z-Max, identified by a "Z" at the end of the model number. This coating resists corrosion.
 
 Corrosion resistance matters because pressure-treated lumber contains chemical preservatives that can corrode standard metal over time. A coated hanger holds up better against that chemical exposure, especially on a deck that will be exposed to moisture. Stainless steel offers even better corrosion resistance, but it costs significantly more than a coated steel hanger — so builders weigh cost against long-term durability when choosing a fastener.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/simpson-zmax-joist-hanger-corrosion-resistant-coating.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### Sizing: One Hanger Can Cover More Than One Joist Size
 
 Joist hangers are sized to match joist dimensions — for example, a hanger sized for a 2x8 joist or a 2x10 joist. But sizing isn't always a strict one-to-one match.
@@ -49,7 +53,9 @@ Once the hanger is seated tight, it needs to be fastened — and the fasteners m
 Structural screws used for this purpose are stamped with an identifying mark and a length code. That stamp lets a building inspector confirm at a glance that the correct length screw was used — an inch-and-a-half screw through the side of a hanger, for example, may not fully reach the ledger board behind it, so the stamp is a quick way to catch an undersized fastener before it becomes a hidden problem.
 
 One general note: nail and screw requirements for this type of connection can vary by local jurisdiction, so it's worth checking your local code before choosing a fastening method.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/joist-hanger-nails-vs-structural-screws.png" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### Getting the Correct Fastener Schedule
 
 Matching the right fastener type, length, and quantity to a specific hanger and connection type is a code-driven decision, and it's easy to get wrong without a reference. This is one of the details the <a href="https://sketchronix.com/#builder" style="color:#1a56db; text-decoration:underline;">Sketchronix Engine</a> can generate directly as part of a deck's construction drawings — producing a fastener schedule alongside the framing layout, so the correct screw or nail spec is documented and ready for inspection rather than left to memory on site.
