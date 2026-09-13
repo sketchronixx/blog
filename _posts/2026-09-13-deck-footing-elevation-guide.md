@@ -7,6 +7,9 @@ date: 2026-09-13
 Footings are the part of a deck nobody sees once the project is finished. But they carry the entire structure above them. Get the elevation wrong down here, and you will spend the rest of the build shimming posts, notching beams, and chasing a fix that should never have been necessary. Get it right, and everything above the footing goes together cleanly.
 
 This guide walks through the process from the first hole in the ground to the anchor bolt that locks the footing in place, including the math that tells you exactly how tall to build each concrete pier.
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/deck-footing-elevation-construction-guide.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 
 ### Start With What's Underground, Not Just What's on the Plan
 
@@ -19,7 +22,9 @@ The lesson here is simple: treat the yard as if something is buried everywhere u
 ### Digging to the Depth Your Plan and Climate Require
 
 Once the ground is clear, the plan tells you how big and how deep to dig. In this project, the plan called for a 12-inch round hole dug 24 inches deep. Your own plan, soil conditions, and local code will set your actual numbers.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/deck-footing-hole-depth-digging.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 That depth is not arbitrary. It is tied to your local **frost depth**, the distance below the surface where the ground freezes in winter. If a footing sits above that line, the freezing and thawing soil can push the whole footing upward over time, a problem called frost heave. In one region with only a 6-inch frost depth, a 24-inch hole was more than deep enough to avoid that problem entirely. In a colder climate, the required depth could be much greater. Always check your local building code for your area's frost depth before assuming any number is safe to use.
 
 If your deck project is permitted, expect an inspector to check the dug holes against the plan before you are allowed to pour any concrete. That inspection confirms the size and depth match what was approved, and it has to happen before the next step.
