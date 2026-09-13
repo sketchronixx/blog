@@ -64,7 +64,9 @@ Working out this string of measurements by hand, and getting it wrong by even a 
 ### Cutting the Concrete Tube to the Right Height
 
 Concrete piers are typically formed using a round cardboard tube, sometimes called a quick tube, that gets filled with concrete and stripped away once it cures. To figure out how long to cut one, measure from the top of the freshly poured concrete in the hole up to the laser line, then subtract your target number. In this project, that measurement was 28 inches to the laser, and subtracting the 18-and-3/4-inch target left 9 and 1/4 inches of tube needed above the concrete. Adding roughly 4 inches of tube to be pushed down into the wet concrete for stability brought the total cut length to about 13 inches.
-
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/deck-footing-concrete-tube-height-measurement.jpg" alt="Deck ledger board flashing and structural framing connection diagram" style="max-width: 80%; height: auto; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+</div>
 ### Setting and Leveling the Tube
 
 Push the cut tube a few inches into the wet concrete so it holds itself upright while you finish filling around it. Check its height against the laser line, and trim it down if it is sitting too high. Use a torpedo level against the side of the tube, checked from a couple of different angles, to make sure it is standing plumb rather than leaning. Packing a bit of dirt around the base can help hold the tube steady while the pier top gets filled.
